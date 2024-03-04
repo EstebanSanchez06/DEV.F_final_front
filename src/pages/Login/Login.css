@@ -1,0 +1,120 @@
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #171717;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    width: 350px;
+    height: 470px;
+  }
+
+  
+  #heading {
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    height: 200px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+  }
+  
+  .field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding-left: 0.6em;
+    height: 300px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    margin-bottom: 10px;
+}
+  
+  .input-icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: white;
+  }
+  
+  .input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #d3d3d3;
+    font-size: 15px;
+  }
+  
+  .form .btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 15;
+  }
+  
+  .button1 {
+    width: 110px;
+    height: 70px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  .button1:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .button2 {
+    width: 110px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  .button2:hover {
+    background-color: black;
+    color: white;
+  }
+  
+.logo{
+    height: 70px;
+    text-align: center;
+    font-size: 90px;
+    margin-top: 10px;
+    color: white;
+}
